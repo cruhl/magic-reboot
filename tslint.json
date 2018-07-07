@@ -1,0 +1,6 @@
+{
+  "extends": "typescript-tooling/tslint",
+  "rules": {
+    "no-submodule-imports": [true, "cross-fetch/polyfill"]
+  }
+}

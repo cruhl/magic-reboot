@@ -1,0 +1,37 @@
+{
+  "name": "magic",
+  "version": "0.0.0",
+  "description": "Reboot of the magic project.",
+  "main": "dist/index.ts",
+  "scripts": {
+    "typescript-tooling": "tst --all",
+    "test": "jest",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "typescript",
+    "graphql"
+  ],
+  "author": "cruhl",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.5.2",
+    "cross-fetch": "^2.2.2",
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5",
+    "ts-jest": "^22.4.6",
+    "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.3.2",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tst": "^1.3.2",
+    "typescript": "^2.9.1",
+    "typescript-tooling": "^3.0.3"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.10",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2"
+  }
+}
